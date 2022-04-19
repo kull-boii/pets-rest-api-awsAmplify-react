@@ -1,0 +1,95 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-petsapi-dev-80953-authRole",
+      "UnauthRoleArn": "arn:aws:iam::854832064841:role/amplify-petsapi-dev-80953-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::854832064841:role/amplify-petsapi-dev-80953-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-petsapi-dev-80953-deployment",
+      "UnauthRoleName": "amplify-petsapi-dev-80953-unauthRole",
+      "StackName": "amplify-petsapi-dev-80953",
+      "StackId": "arn:aws:cloudformation:us-east-1:854832064841:stack/amplify-petsapi-dev-80953/01dc0030-bf8a-11ec-a0aa-125657df9ead",
+      "AmplifyAppId": "d8vnjub9jctif",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-petsapi-dev-80953-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-petsapi-dev-80953-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "petsapi77c43e5fDefineAuthChallenge": {
+          "deploymentBucketName": "amplify-petsapi-dev-80953-deployment",
+          "s3Key": "amplify-builds/petsapi77c43e5fDefineAuthChallenge-6d4b5546457149695066-build.zip"
+        },
+        "petsapi77c43e5fCreateAuthChallenge": {
+          "deploymentBucketName": "amplify-petsapi-dev-80953-deployment",
+          "s3Key": "amplify-builds/petsapi77c43e5fCreateAuthChallenge-6e46685562694e566d4d-build.zip"
+        },
+        "petsapi77c43e5fVerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "Aadi",
+          "deploymentBucketName": "amplify-petsapi-dev-80953-deployment",
+          "s3Key": "amplify-builds/petsapi77c43e5fVerifyAuthChallengeResponse-56704e67334c426f4f59-build.zip"
+        },
+        "petsapi77c43e5fCustomMessage": {
+          "REDIRECTURL": "# http://localhost:3000/login",
+          "EMAILSUBJECT": "email login",
+          "EMAILMESSAGE": "confirm email",
+          "deploymentBucketName": "amplify-petsapi-dev-80953-deployment",
+          "s3Key": "amplify-builds/petsapi77c43e5fCustomMessage-4c474b7064664f4b6c54-build.zip"
+        },
+        "petsapic5db8de5DefineAuthChallenge": {
+          "deploymentBucketName": "amplify-petsapi-dev-80953-deployment",
+          "s3Key": "amplify-builds/petsapic5db8de5DefineAuthChallenge-364352656c696673634f-build.zip"
+        },
+        "petsapic5db8de5CreateAuthChallenge": {
+          "deploymentBucketName": "amplify-petsapi-dev-80953-deployment",
+          "s3Key": "amplify-builds/petsapic5db8de5CreateAuthChallenge-4834784e722b6e7a4868-build.zip"
+        },
+        "petsapic5db8de5VerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "aadi",
+          "deploymentBucketName": "amplify-petsapi-dev-80953-deployment",
+          "s3Key": "amplify-builds/petsapic5db8de5VerifyAuthChallengeResponse-6e57392b336a6c466f55-build.zip"
+        },
+        "petsapic5db8de5CustomMessage": {
+          "REDIRECTURL": "http://localhost:3000/",
+          "EMAILSUBJECT": "verify email",
+          "EMAILMESSAGE": "verification mail",
+          "deploymentBucketName": "amplify-petsapi-dev-80953-deployment",
+          "s3Key": "amplify-builds/petsapic5db8de5CustomMessage-4f795273793664437843-build.zip"
+        },
+        "petsapibc5ad0e0DefineAuthChallenge": {
+          "deploymentBucketName": "amplify-petsapi-dev-80953-deployment",
+          "s3Key": "amplify-builds/petsapibc5ad0e0DefineAuthChallenge-372f72557a6f54485870-build.zip"
+        },
+        "petsapibc5ad0e0CreateAuthChallenge": {
+          "deploymentBucketName": "amplify-petsapi-dev-80953-deployment",
+          "s3Key": "amplify-builds/petsapibc5ad0e0CreateAuthChallenge-79794b696b546e553848-build.zip"
+        },
+        "petsapibc5ad0e0VerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "6LcdMoMfAAAAAGbfrGnhSQEUkn1nd8efehG0xC-U",
+          "deploymentBucketName": "amplify-petsapi-dev-80953-deployment",
+          "s3Key": "amplify-builds/petsapibc5ad0e0VerifyAuthChallengeResponse-4c36662b614f5a705977-build.zip"
+        },
+        "petsapibc5ad0e0CustomMessage": {
+          "REDIRECTURL": "http://localhost:3000/",
+          "EMAILSUBJECT": "Email Verification",
+          "EMAILMESSAGE": "Please confirm your email",
+          "deploymentBucketName": "amplify-petsapi-dev-80953-deployment",
+          "s3Key": "amplify-builds/petsapibc5ad0e0CustomMessage-72344873503765556746-build.zip"
+        },
+        "petsapi1329f007CustomMessage": {
+          "REDIRECTURL": "http://localhost:3000",
+          "EMAILSUBJECT": "Verification mail",
+          "EMAILMESSAGE": "Please Verify yourself",
+          "deploymentBucketName": "amplify-petsapi-dev-80953-deployment",
+          "s3Key": "amplify-builds/petsapi1329f007CustomMessage-733737487972656c6859-build.zip"
+        },
+        "petsfunc": {
+          "deploymentBucketName": "amplify-petsapi-dev-80953-deployment",
+          "s3Key": "amplify-builds/petsfunc-47476d7a69683643716a-build.zip"
+        }
+      },
+      "auth": {
+        "petsapi1329f007": {}
+      }
+    }
+  }
+}

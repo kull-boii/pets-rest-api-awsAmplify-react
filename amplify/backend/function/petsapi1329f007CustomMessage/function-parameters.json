@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "petsapi1329f007",
+  "functionName": "petsapi1329f007CustomMessage",
+  "resourceName": "petsapi1329f007CustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "C:\\snapshot\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "petsapi1329f007CustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "http://localhost:3000",
+  "EMAILSUBJECT": "Verification mail",
+  "EMAILMESSAGE": "Please Verify yourself",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}

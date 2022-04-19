@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "captcha-create-challenge"
+  ],
+  "parentResource": "petsapi77c43e5f",
+  "functionName": "petsapi77c43e5fCreateAuthChallenge",
+  "resourceName": "petsapi77c43e5fCreateAuthChallenge",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "C:\\snapshot\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\CreateAuthChallenge",
+  "triggerTemplate": "CreateAuthChallenge.json.ejs",
+  "triggerEventPath": "CreateAuthChallenge.event.json",
+  "roleName": "petsapi77c43e5fCreateAuthChallenge",
+  "skipEdit": true,
+  "enableCors": false
+}
